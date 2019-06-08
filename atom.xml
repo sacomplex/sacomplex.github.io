@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="sacomplex.gitee.io/"/>
-  <updated>2019-06-07T15:48:04.146Z</updated>
-  <id>sacomplex.gitee.io/</id>
+  <link href="sacomplex.github.io/"/>
+  <updated>2019-06-08T05:42:29.000Z</updated>
+  <id>sacomplex.github.io/</id>
   
   <author>
     <name>sacomplex</name>
@@ -17,13 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>进一步设置</title>
-    <link href="sacomplex.gitee.io/2019/06/07/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/02%20%E8%BF%9B%E4%B8%80%E6%AD%A5%E8%AE%BE%E7%BD%AE/"/>
-    <id>sacomplex.gitee.io/2019/06/07/搭建个人博客/Hexo/02 进一步设置/</id>
-    <published>2019-06-07T14:04:55.263Z</published>
-    <updated>2019-06-07T15:48:04.146Z</updated>
+    <title>辐射4那些你不知道的小秘密</title>
+    <link href="sacomplex.github.io/2019/06/08/Games/Bethesda/Fallout%20%E7%B3%BB%E5%88%97/Fallout%204/00%20%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86%20%E6%94%BB%E7%95%A5%20%E7%AD%89/%E8%BE%90%E5%B0%844%E9%82%A3%E4%BA%9B%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%B0%8F%E7%A7%98%E5%AF%86/"/>
+    <id>sacomplex.github.io/2019/06/08/Games/Bethesda/Fallout 系列/Fallout 4/00 背景知识 攻略 等/辐射4那些你不知道的小秘密/</id>
+    <published>2019-06-08T05:42:29.000Z</published>
+    <updated>2019-06-08T05:42:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>参考</p><ul><li><a href="https://www.bilibili.com/video/av24869594" target="_blank" rel="noopener">手把手教你给hexo博客添加live2d看板娘</a></li><li><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析</a></li><li><a href="https://www.lixint.me/hexo-blog.html" target="_blank" rel="noopener">【持续更新】Github Pages + Hexo 博客搭建，Next主题个性化修改</a></li></ul><h2 id="插件介绍">插件介绍</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;hexo-site&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;0.0.0&quot;,</span><br><span class="line">  &quot;private&quot;: true,</span><br><span class="line">  &quot;hexo&quot;: &#123;</span><br><span class="line">    &quot;version&quot;: &quot;3.8.0&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;eslint&quot;: &quot;^5.16.0&quot;,</span><br><span class="line">    &quot;hexo&quot;: &quot;^3.8.0&quot;,</span><br><span class="line">    &quot;hexo-autonofollow&quot;: &quot;^1.0.1&quot;,</span><br><span class="line">    &quot;hexo-deployer-git&quot;: &quot;^1.0.0&quot;,</span><br><span class="line">    &quot;hexo-directory-category&quot;: &quot;^1.0.7&quot;,</span><br><span class="line">    &quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,</span><br><span class="line">    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-feed&quot;: &quot;^1.2.2&quot;,</span><br><span class="line">    &quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,</span><br><span class="line">    &quot;hexo-generator-json-content&quot;: &quot;^4.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-sitemap&quot;: &quot;^1.2.0&quot;,</span><br><span class="line">    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-helper-live2d&quot;: &quot;^3.1.1&quot;,</span><br><span class="line">    &quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,</span><br><span class="line">    &quot;hexo-renderer-kramed&quot;: &quot;^0.1.4&quot;,</span><br><span class="line">    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,</span><br><span class="line">    &quot;hexo-server&quot;: &quot;^0.3.3&quot;,</span><br><span class="line">    &quot;save&quot;: &quot;^2.4.0&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo-autonofollow    // 打开非本站链接时自动开启新标签页</span><br><span class="line">hexo-directory-category // 根据文章文件目录自动为文章添加分类</span><br><span class="line">hexo-generator-feed    // 生成 RSS 源</span><br><span class="line">hexo-generator-json-content// 生成全站文章 json 内容，用于全文搜索</span><br><span class="line">hexo-generator-sitemap// 生成全站站点地图 sitemap</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><a href="http://www.zhongyidiantong.com/thread-134605-1-1.html" target="_blank" rel="noopener">原址</a></p><p>1、111号避难所的冰冻枪，前期没开锁技能可以带上狗肉去，使用狗肉的搜索附近物品功能脸好可以弄出来在狗肉身上，最好把附近能拿的东西都拿掉几率更大。</p><p>2、如果走灭兄弟会路线，在盲目的背叛任务剧情嘴炮救了丹斯后，记得在与兄弟会完全敌对之前，回去把丹斯招募转移到你的据点，不然等到灭了兄弟会后丹斯会完全不鸟你，这么做虽然不能让丹斯继续跟着你出去打野，但是据点多了一位强而有力的X01盔甲战士，你可以让他守点、卖东西之类的。关系满级而不表白的情况下，他还时不时你聊聊人生。</p><p>3、三方势力：兄弟会、学院、铁路，三个招募对象：X6、迪肯、丹斯，都是合成人，所以无论结局如何，可以算是三方合成人之间的斗争。由31楼的猫友提供：葛萝莉你问她他会说自己是合成人，但是你打死她后能发现她没零件。狄肯是不是合成人这个有待争议。</p><p>4、银衣怪客任务最好20级左右去做，不要超过25级，在最后成功救下肯特后，对话选择继续扮演银衣怪客和支持他为他打气，在后续到达25级、35级、45级时分别可以找他升级银衣怪客戏服。虽然说防弹布秒银衣。</p><p>5、新手玩过第一遍后就会发现义勇军是个坑，铁路安全屋也是个坑，兄弟会商那补给物资任务更坑，打个比方你先加入义勇军通马桶无数，再接兄弟会商店任务直接就是上门自己据点抢粮食…所以最好的办法就是别去做这些任务。</p><p>6、接上一条，新手被义勇军坑过后，开二档时其实完全可以不用做义勇军，也就是别去康纳德救小黑。你打到学校爆炸、飞艇爆炸、铁路爆炸（哦铁路不会爆炸） ，小黑可以一直让他留在康纳德被掠夺者虐。直到你统治联邦每个角落，你想什么时候去找他就什么时候去，而且可以触发不同对话，比如已经找到儿子之类的，但是他也会很不客气的跟你说：“来，将军阁下废话完了可以去通马桶了吗”</p><p>7、再接上一条，个人比较喜欢非主流玩法，一开局还是别去找小黑，随便练几级把偷窃练到可以在敌人身上放雷，带些捷特，几个瓶盖地雷，直接去核子火车站，先把楼顶两个狙击手上去弄死，然后用车轮战瓶盖雷弄死剩下的。直接去核子世界，地牢考验不多说了，只要</p><p>多存档</p><p>慢慢来就没压力。</p><p>过掠夺者在屋顶上打那里直接开跑无伤过，最后BOSS也简单，开门后慢慢走最左边慢慢潜行，他会发现你一次不过没关系不会主动打你，慢慢潜行到他后面身上放个雷，BOOM！！然后你就是核子世界老大了。</p><p>当老大第一件事找狼帮头领嘴炮喷他给你枪，然后剩下的配件和子弹慢慢偷。这时你可以回联邦或者继续在核子，我是在核子呆到三十多级才回联邦。过程的确很艰难，不过这样玩的确有意思。</p><p>8、再接上一条，核子掠夺者与联邦义勇军发生冲突的交接点就在于山克让你回联邦占据点，只要你做了这个任务你就会跟小黑闹掰。非正常手法义勇军与掠夺者只能选一。</p><p>9、传说中你如果与学院敌对，你的居民可能被学院替换成合成人的，关于替换了没你可以加点看敌人抗性，光学伤害抗性很强的就不用解释了…已经被学院偷换了。</p><p>10、庇护山丘卖水商这个套路应该是个老玩家都知道，不过还是提一下呗~（火星什么的求绿帽效应）多在庇护山丘建水厂，两天给你产N++水，力量技能负重可快速旅行，保你吃喝不愁，谁用谁知道。</p><p>11、想最快速度通关游戏？没有问题，开局直接不去避难所，往红火箭方向去就OK。</p><p>12、如果你没加入铁路去芳邻镇，你有可能看到一个带着墨镜的光头旅行者，没错，这家伙就是铁路的狄肯。在钻石城也会碰到他，可能是一个保安。在碉堡山也许是个商队护卫。他一直在默默的关注主角，乃至后来去铁路会把你的底细说的清清楚楚。这家伙才是真正的渗透者。</p><p>13、机器守卫DLC的亚达是没有好感度系统的，所以别费周折了，他没有perk。</p><p>14、81号避难所遇到的居里机器人后来做它的专属任务会变合成人，但是她的属性点是所有队友里最低的，还不如狗肉。（别低估狗肉，技能点还是可以的）B社肯定是故意的。</p><p>15、墨菲老妈如果一直给她吃药她是会去见上帝的。</p><p>16、队友身上东西负重上限？没问题，把你多余的东西丢死人身上，让队友去搜，照样能带上。</p><p>17、关于建造房子，如果你建造了一面墙，你又不想让另一堵墙被粘附上，想留空隙怎么办？只要你的视野里不出现已经建造好的那堵墙就不会黏在一起。。</p><p>18、在联邦有一些信号塔可以开启，开启之后会收到几个无线电信号，虽然没任务提示，但是它是指示附近的某些地窖藏身地，你越接近目的地信号就越清楚。你可以成功找到后关掉无线电发射端，就不会再收到那个求救电台了。除此之外，毫无卵用。</p><p>19、即使你全身都是+移动速度的附魔装备，但是你切换到第一人称后 完！ 全！ 无！ 效！</p><p>20、同上条同理，第三人称跑的比第一人称快，不知道是不是我的错觉。。</p><p>21、胖子核弹的实验型弹头，也就是分裂弹头，别看伤害面板貌似低，实际上那伤害老高了。。秒天秒地秒空气。如果用钻石城武器商人那的“大家伙”改造，没有什么不是一发胖子解决不了的，如果有？没有如果。</p><p>22、你带你每个队友去111避难所看配偶的ST，都会有不同的反应。比如派普会说：“难道里面那位就是你的……”</p><p>23、其实辐射力满地的乌鸦鸟有很多都是学院的监视器，虽然你不能拾取它们，在学院有个房间有很多监控，其实都是那些鸟看到的……联邦人民毫无隐私可言！</p><p>24、在某些地方的某些衣服模特其实是合成人假扮的……</p><p>25、第一人称受到的爆炸伤害比第三人称的少，但受到的枪械伤害更为精准。</p><p>26、如果一个垃圾可以分解出多个零件，而你直接放工坊里，到要造什么的时候没材料会直接用掉这个垃圾，而无关的零件并不会保留。</p><p>27、全游戏最会画饼的画饼大师是谁？麦克森，没错就是他，我为兄弟会辛辛苦苦打拼还炸了自己儿子，说好的给我的小队呢？我都是飞船第二把交椅了，那里斯骑士还是一副嘴脸好像他才是老大一样。不能忍，必须灭兄弟会。</p><p>28、泥沼蟹的壳是可以打掉的……你会看到没有壳的泥沼蟹，Have funny</p><p>29、尸鬼扑过来是不是很口怕，打脚就对了，发现尸鬼就先打脚，血量高的尸鬼你可以截了他四肢还在地上活着。同理，死亡爪、人类、机器人都一样。。不过要小心突袭者，在地上爬它头还是能发射死亡光线的。</p><p>30、不要以为聚点给NPC开的商店只是让你多几个买卖的地方，其实他们可以产出瓶盖在工坊里，不过你不去取的话它达到一定量就不会产出了。所以要经常去取哦。对了，补充上面某条，水也是如此。</p><p>31、如果你潜行技能不是很好，踩到地雷了却一下找不到怎么办？赶紧F5，然后F9读档，你会发现附近的雷一个都没了</p><p>32、无论你什么流派，魅力是必加6的。</p><p>33、地雷对于人类敌人不是很好用，地雷最好是用来清理发现你的尸鬼，看到发现你往你过来就一边退一遍扔。。百试不爽。</p><p>34、新手开档不要遇到敌人就突突突，像地鼠等敌对单位尽量用近战武器搞定，效率高而且节省子弹。</p><p>35、在兄弟会船上你去偷核心脸好NPC位置对了你能偷无限个核心，也就是偷了他身上立马又有一个。不过有时候又不行，我也不知道为什么。</p><p>36、动力核心如果用到快没电了，赶紧退出机甲，换一个新的，旧的可以当新的卖给商人。。到底谁才是J商。。</p><p>37、大家在联邦各地能遇到一些核子发电机，关于拔了上面的核心会怎样这个问题，有个朋友问过我，我的回答是：你会多一个核心。除此之外毫无影响，会让世界停电？笑话</p><p>38、庇护山丘在你家隔壁的隔壁有个物资后面有个地窖可以拿一些初期的物资，还算不错。（面对家门口右边的右边的房子后面</p><p>39、钻石城大门口上面其实是可以利用周围的房子和喷气背包飞上城墙上面去的。。上面还有东西可以拿。</p><p>40、狗肉不算队友。带上狗肉，独行侠技能仍然有效。这个人人都知道。算我凑一条吧~绿帽效应绿帽效应咳咳</p><p>41、远港DLC最好带尼克去，可以有更加完美的剧情效应，而且可以拿到一些只有尼克才可以开启的门后的东西。</p><p>42、我对于游戏的理解觉得最完美的顺序应该是：一个年轻妈妈or爸爸冰冻了200年后出来找儿子，其中遇到了不少事情与朋友，看到联邦如此废弃加入了义勇军一遍帮助居民重建废墟一遍找儿子。最后千辛万苦找到儿子，但儿子又已经年老离TA而去，心灰意冷的TA选择离开这个伤心地，来到了核子世界，既然当好人没什么好报那么就当坏蛋。加入了掠夺者后开始烧杀抢掠，因为TA的心已经死了，小黑与TA决裂，TA也满不在乎，最后控制某方势力一统联邦，独步天下。而良久后收到了一条人口失踪案，对于这个世界已经麻木的TA偶尔想去散散心也好，于是前往了远方港湾……在这里她又将遇到了什么，看到了什么，未来的选择又是什么？更多合成人的秘密，居民们为了生存与黑暗抗争顽强的生活着。最后TA明白了，也许，好好活着，才是这片废土的真谛吧。</p><p>当然~我怎么可能按照这样的路线去玩，毕竟我是非主流玩家。</p><p>43、81号避难所内后续任务会触发小孩被老鼠咬，如果自己也被老鼠咬到HP最大值永久-10。解药自己用或者给小孩，最好别被咬到，多存档。队友也会中招，所以别带队友去。</p><p>44、汉考克确实是最帅的尸鬼，至少在没变尸鬼前他是个大帅哥，你可以从记忆中心老板年的电脑上查到。</p><p>45、学院有个任务两个科学家不服气而叛变，后来你如果选择杀掉他们，人类科学家都会对谴责你的行为，但是合成人貌似比较支持你……</p><p>46、肖恩是主角的儿子（废话），包括合成人小肖恩（理论上算是个克隆的），他们的长相、眼睛、发色都会根据主角最开始捏脸的样子而变化，中途捏脸整容是没用的。这一点B社做的很好，所以说如果你的头发是棕色，小肖恩的头发也就是棕色。不过老肖恩已经老了，头发就自然白了……</p><p>47、如果你带着X6到处走，特别是去钻石城等地方，老百姓会害怕，而X6会说：“怕就对了……”</p><p>48、结局后认小肖恩做儿子的话，他会让你搜集垃圾，不要以为只是单纯的搜集垃圾，后面会给你做一把激光枪，虽然并没什么卵用。</p><p>49、其实本帖不想谈控制台，但是昨天发现个很好玩的事，如果你悄悄接近一个超级变种人自爆者，利用showinventory代码查看他身上的装备，会有一项0014245d，这是它拿在手里的那个胖子炸弹。这和在吸烟室的迷你核弹那个钝器不一样，你可以招募壮壮后，控制台点击壮壮输入additem 0014245d 1，拿走他身上的武器他就会拿上自爆炸弹……而且真的会拿去自爆，有自爆动作但是不会爆炸，敌人也是莫名其妙的就死了哈哈哈哈</p><p>50、潜行时如果听电台会增加被发现的几率。</p><p>51、如果做过兄弟会自由至尊任务，再去做机械守卫，拿回耶洗别的头后它会怪你技术太菜，选讽刺选项主角会说：“那真不好意思没把你的头装在自由至尊上”这波讽刺666</p><p>52、远港任务得知合成人在远港有基地后，如果选择兄弟会和学院都是毁灭阿卡迪亚。选择铁路的话只会叫一个打酱油的过去。</p><p>53、兄弟会任务一开始与丹斯做完任务后会正式邀请你加入，之后回警局回让你协助里斯骑士和学术小妹，看似是入门考验，其实如果你等兄弟会飞船降临也就是完成黑根堡任务后再去加入，就可以直接上飞船，所以说这些小任务都是开荒用的。 最搞笑的就是我飞船来了再去加入兄弟会，进门问里斯什么时候可以上船，里斯表示：“那你现在还不行，这必须要得到丹斯的认可”</p><p>刚说完丹斯就说，let's go 我们上船去，脸打得啪啪响。</p><p>54、义勇军结局后不久找司特吉，他会给你一把自动的滑膛镭射枪，也就是说不用手动转手把。特别是蹲下第三人称射击的时候你会明显感到射速变得飞快，手就像摇水井把手一样狂转，甚是滑稽。</p><p>55、本作收录了900多个英文名，如果你在游戏开始取名是在这900多英文名中的一个，那么游戏内NPC就会叫出你的名字。具体是哪些百度查吧……选一个合意的。</p><p>56、如果你等级太高技能点太变态装备太牛X去打掠夺者他们会逃跑，还一边惊呼：“这家伙不怕子弹！”</p><p>57、顺便说一条技术活，这也是这两天困扰我的一大问题刚好想到也就说一下。</p><p>如果你全屏游戏老是需要弹出去桌面查攻略啥的，有可能回到游戏分辨率会出问题，而且必须得退游戏重进才能解决，这里有一招可以有效预防。在进游戏时保持游戏的前一个窗口是最大化全屏状态进游戏，也就是游戏在任务管理器左边的一个。不要保留其他的任务窗口，ALT+TAB弹出来就会到那个窗口。只要下次弹进去游戏之前是打开着那个最大化窗口就不会出现此问题了。如果你是打开其他小窗口的状态点回游戏就有可能分辨率出问题了。</p><p>58、如果你的某些属性只有一点，比如力量只有1点，在战斗时你的武器很可能掉地上…智力1NPC可能会嘲讽你之类的</p><p>59、如果你给墨菲老妈多几次毒品她会告诉你遇到的第一个合成人追猎者Z2-47的回收代码，也就是杀光枪手一栋楼的那家伙。而且Z2还会很惊讶的说：“你……你怎么知道的”然后就跪了，丝毫不费吹灰之力。由此可见墨菲老妈不简单，很有可能是学院的老一辈人。</p><p>60、动力装甲脚部AP回复率改造效果是不可重叠的，也就是说你两只脚都改了AP恢复也只有一只脚有效。另一个有意思的是你把动力机甲全部部件用非正常手法改成全加移动速度特效，那动力机甲跑起来简直就是真正意义上的火车。搭配天堂路perk简直了！</p><p>61、其实游戏开局老冰棍进冰箱的时候有三个在冰箱里的场景，第一个是刚进冰箱时，这时是在战前；第二个是配偶被杀，这是70年前；第三是出冰箱时，也就是游戏正式开始时间2277年。这里有一个很有意思的地方，就是第二个场景配偶被杀，如果你控制台开TCL穿墙或者TFC自由视角移动，你会看到这个地方其实是在克罗格的记忆中，你能看到克罗格的记忆神经…和后来去记忆中心做进入克罗格记忆里是同一个地方。B社真会偷懒。</p><p>62、噶抓可以给他带一定小圆顶帽……当然如果把它魔改了就不行了。</p><p>63、如果你想用心培养你的角色，加基本属性的避难所娃娃千万别乱拿！在某一属性达到10后再去拿可以破11点基本属性，如果你没满就去拿了就别想到11点了。</p><p>64、115号兄弟哨站有一台终端机，上面写着让老冰棍过来演讲…不过那都是200年前的事了。两百年后看到这个百感交集。</p><p>65、居民妹子？义勇军妹子？铁路妹子？兄弟会妹子？一个比一个丑，只有枪手妹子才长得不错…难道因为枪手都是……“枪手”？</p><p>66、敌方机器人如果你破坏它某个部位可能让它程序扰乱攻击自己人。</p><p>67、最容易产出奶牛（婆罗门）的地方就是阳光海岸合作社，我开6个档几乎每个都有牛，昨天一看现在的档多了6头…有牛一定要建饲料槽。牛产饲料，饲料做捷特，点不上瘾perk带一背包捷特打遍天下无敌手……</p><p>68、一些比较小的聚点比如刽子手小巷，你完全可以把路堵得严严实实的只留一个口进人，而那个口你可以装满机关，比如一排喷火器，地上丢N个特斯拉电弧，再加三四排刀片……设置个激光触发式开关，当提示有人进攻时你就可以去看好戏了……不是我说，真！的！爽！</p><p>69、如果在找小黑之前把所有的联邦聚点都占领好发展好再去救小黑会怎样？这几天我得出了答案，然并卵。无论你怎样义勇军第一个任务强制通马桶。坑坑坑坑坑啊！！</p><p>70、你在南波士顿警察局（城堡附近）能碰到一个人卖储值卡给你，说是值100瓶盖，还收你10瓶盖手续费。很多人以为是骗子，实际上并不是骗子，储值卡能在远港的布鲁克那使用……至于那卖储值卡的人说一星期后来找他，他知道在崔尼帝有什么生意之类的话，我连续睡了两星期去找他都没用。</p><p>71、远港任务的佳澄不是合成人，在走不毁灭阿卡迪亚路线后努力劝说她回家说她不是合成人，然后她回到家后你再当着她父母面说她是合成人，如果队友是尼克就会很有意思的调侃你：“你这到底是哪壶不提哪壶？” 佳澄也会一脸懵。（哈哈哈哈，我走这剧情故意这么做笑了我十分钟）</p><p>72、司特吉也是被替换的合成人，之前的真司特吉很笨，连最基本的修理都不太会。这可以在南部某台终端机上看到，忘了在哪了。。</p><p>73、如果居里变人前没加入铁路，带变成后的居里去铁路，铁路的二姐（后来兄弟会进攻会挂掉的那位）会说居里肉身原来的合成人就是她的家人一样，看到她就像看到了家人。</p><p>74、学院的李博士（繁体为黎博士）是3代主角爸爸的助理。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://www.zhongyidiantong.com/thread-134605-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;原址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;1、111号避难所的冰冻枪，前期没开锁技能可以带上狗肉
+      
+    
+    </summary>
+    
+      <category term="Games" scheme="sacomplex.github.io/categories/Games/"/>
+    
+      <category term="Bethesda" scheme="sacomplex.github.io/categories/Games/Bethesda/"/>
+    
+      <category term="Fallout 系列" scheme="sacomplex.github.io/categories/Games/Bethesda/Fallout-%E7%B3%BB%E5%88%97/"/>
+    
+      <category term="Fallout 4" scheme="sacomplex.github.io/categories/Games/Bethesda/Fallout-%E7%B3%BB%E5%88%97/Fallout-4/"/>
+    
+      <category term="00 背景知识 攻略 等" scheme="sacomplex.github.io/categories/Games/Bethesda/Fallout-%E7%B3%BB%E5%88%97/Fallout-4/00-%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86-%E6%94%BB%E7%95%A5-%E7%AD%89/"/>
+    
+    
+      <category term="辐射4" scheme="sacomplex.github.io/tags/%E8%BE%90%E5%B0%844/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进一步设置</title>
+    <link href="sacomplex.github.io/2019/06/07/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/02%20%E8%BF%9B%E4%B8%80%E6%AD%A5%E8%AE%BE%E7%BD%AE/"/>
+    <id>sacomplex.github.io/2019/06/07/搭建个人博客/Hexo/02 进一步设置/</id>
+    <published>2019-06-07T14:04:55.263Z</published>
+    <updated>2019-06-08T05:44:07.425Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考</p><ul><li><a href="https://www.bilibili.com/video/av24869594" target="_blank" rel="noopener">手把手教你给hexo博客添加live2d看板娘</a></li><li><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析</a></li><li><a href="https://www.lixint.me/hexo-blog.html" target="_blank" rel="noopener">【持续更新】Github Pages + Hexo 博客搭建，Next主题个性化修改</a></li><li><a href="https://www.jianshu.com/p/3ff20be8574c" target="_blank" rel="noopener">Hexo-Next-主题优化(一)</a></li></ul><h2 id="插件介绍">插件介绍</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;hexo-site&quot;,</span><br><span class="line">  &quot;version&quot;: &quot;0.0.0&quot;,</span><br><span class="line">  &quot;private&quot;: true,</span><br><span class="line">  &quot;hexo&quot;: &#123;</span><br><span class="line">    &quot;version&quot;: &quot;3.8.0&quot;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;dependencies&quot;: &#123;</span><br><span class="line">    &quot;eslint&quot;: &quot;^5.16.0&quot;,</span><br><span class="line">    &quot;hexo&quot;: &quot;^3.8.0&quot;,</span><br><span class="line">    &quot;hexo-autonofollow&quot;: &quot;^1.0.1&quot;,</span><br><span class="line">    &quot;hexo-deployer-git&quot;: &quot;^1.0.0&quot;,</span><br><span class="line">    &quot;hexo-directory-category&quot;: &quot;^1.0.7&quot;,</span><br><span class="line">    &quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,</span><br><span class="line">    &quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-feed&quot;: &quot;^1.2.2&quot;,</span><br><span class="line">    &quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,</span><br><span class="line">    &quot;hexo-generator-json-content&quot;: &quot;^4.1.3&quot;,</span><br><span class="line">    &quot;hexo-generator-sitemap&quot;: &quot;^1.2.0&quot;,</span><br><span class="line">    &quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,</span><br><span class="line">    &quot;hexo-helper-live2d&quot;: &quot;^3.1.1&quot;,</span><br><span class="line">    &quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,</span><br><span class="line">    &quot;hexo-renderer-kramed&quot;: &quot;^0.1.4&quot;,</span><br><span class="line">    &quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,</span><br><span class="line">    &quot;hexo-server&quot;: &quot;^0.3.3&quot;,</span><br><span class="line">    &quot;save&quot;: &quot;^2.4.0&quot;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo-autonofollow    // 打开非本站链接时自动开启新标签页</span><br><span class="line">hexo-directory-category // 根据文章文件目录自动为文章添加分类</span><br><span class="line">hexo-generator-feed    // 生成 RSS 源</span><br><span class="line">hexo-generator-json-content// 生成全站文章 json 内容，用于全文搜索</span><br><span class="line">hexo-generator-sitemap// 生成全站站点地图 sitemap</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -37,19 +71,19 @@
     
     </summary>
     
-      <category term="搭建个人博客" scheme="sacomplex.gitee.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="搭建个人博客" scheme="sacomplex.github.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="Hexo" scheme="sacomplex.gitee.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/"/>
+      <category term="Hexo" scheme="sacomplex.github.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/"/>
     
     
-      <category term="Hexo" scheme="sacomplex.gitee.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="sacomplex.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>线性代数的本质</title>
-    <link href="sacomplex.gitee.io/2019/06/07/%E6%95%B0%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E6%9C%AC%E8%B4%A8/"/>
-    <id>sacomplex.gitee.io/2019/06/07/数学/线性代数的本质/</id>
+    <link href="sacomplex.github.io/2019/06/07/%E6%95%B0%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E6%9C%AC%E8%B4%A8/"/>
+    <id>sacomplex.github.io/2019/06/07/数学/线性代数的本质/</id>
     <published>2019-06-07T10:50:23.938Z</published>
     <updated>2019-06-07T15:36:57.645Z</updated>
     
@@ -69,19 +103,19 @@
     
     </summary>
     
-      <category term="数学" scheme="sacomplex.gitee.io/categories/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="sacomplex.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
     
     
-      <category term="Linear Algebra" scheme="sacomplex.gitee.io/tags/Linear-Algebra/"/>
+      <category term="Linear Algebra" scheme="sacomplex.github.io/tags/Linear-Algebra/"/>
     
-      <category term="3Blue1Brown" scheme="sacomplex.gitee.io/tags/3Blue1Brown/"/>
+      <category term="3Blue1Brown" scheme="sacomplex.github.io/tags/3Blue1Brown/"/>
     
   </entry>
   
   <entry>
     <title>简单搭建和设置</title>
-    <link href="sacomplex.gitee.io/2019/06/07/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/01%20%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA%E5%92%8C%E8%AE%BE%E7%BD%AE/"/>
-    <id>sacomplex.gitee.io/2019/06/07/搭建个人博客/Hexo/01 简单搭建和设置/</id>
+    <link href="sacomplex.github.io/2019/06/07/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/01%20%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA%E5%92%8C%E8%AE%BE%E7%BD%AE/"/>
+    <id>sacomplex.github.io/2019/06/07/搭建个人博客/Hexo/01 简单搭建和设置/</id>
     <published>2019-06-07T10:50:23.917Z</published>
     <updated>2019-06-07T15:32:04.943Z</updated>
     
@@ -98,12 +132,12 @@
     
     </summary>
     
-      <category term="搭建个人博客" scheme="sacomplex.gitee.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="搭建个人博客" scheme="sacomplex.github.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="Hexo" scheme="sacomplex.gitee.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/"/>
+      <category term="Hexo" scheme="sacomplex.github.io/categories/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo/"/>
     
     
-      <category term="Hexo" scheme="sacomplex.gitee.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="sacomplex.github.io/tags/Hexo/"/>
     
   </entry>
   
