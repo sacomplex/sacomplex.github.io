@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="sacomplex.gitee.io/"/>
-  <updated>2019-06-09T14:55:17.000Z</updated>
+  <updated>2019-06-10T01:28:01.000Z</updated>
   <id>sacomplex.gitee.io/</id>
   
   <author>
@@ -17,9 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>软件推荐</title>
+    <link href="sacomplex.gitee.io/2019/06/10/%E8%B5%84%E6%BA%90/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <id>sacomplex.gitee.io/2019/06/10/资源/软件推荐/</id>
+    <published>2019-06-10T01:28:01.000Z</published>
+    <updated>2019-06-10T01:28:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>MarkDown编辑器<ul><li>有道云笔记</li><li><a href="https://www.typora.io/" target="_blank" rel="noopener">Typora</a><ul><li>只有本地功能</li></ul></li><li><a href="https://gitnoteapp.com/" target="_blank" rel="noopener">gitnotes</a><ul><li>与github集成,可以替代有道云笔记</li><li>Windows10下会崩溃,Linux下公式渲染有问题</li></ul></li></ul></li><li>截图工具<ul><li><a href="https://www.snipaste.com/" target="_blank" rel="noopener">Snipaste</a></li><li><a href="https://www.screentogif.com/" target="_blank" rel="noopener">ScreenToGif</a></li></ul></li><li><a href="https://www.geogebra.org/" target="_blank" rel="noopener">GeoGebra</a></li><li>版本控制<ul><li><a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop</a></li><li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></li></ul></li><li>IDE<ul><li><a href="https://visualstudio.microsoft.com" target="_blank" rel="noopener">VStudio</a></li><li><a href="https://visualstudio.microsoft.com" target="_blank" rel="noopener">VScode</a></li><li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener">JetBrains</a></li></ul></li><li>Web<ul><li>Chrome<ul><li>Sourcegraph</li><li>Postman</li><li>WEB前端助手(FeHelper)</li></ul></li><li><a href="https://web.telegram.org" target="_blank" rel="noopener">Telegram</a></li></ul></li><li>GUI开发<ul><li>Qt</li></ul></li><li>命令行工具<ul><li><a href="https://cmder.net/" target="_blank" rel="noopener">cmder</a></li></ul></li><li>虚拟机<ul><li><a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener">Workstation Player</a></li></ul></li><li>游戏引擎<ul><li>Unity</li><li><a href="https://www.unrealengine.com" target="_blank" rel="noopener">Unreal Engine 4</a></li></ul></li><li>3D建模软件<ul><li><a href="https://www.blender.org" target="_blank" rel="noopener">Blender</a></li></ul></li><li>下载工具<ul><li>IDM</li></ul></li><li><a href="https://github.com/Code52/carnac" target="_blank" rel="noopener">carnac</a></li><li>FastStone Photo Resizer</li><li>Advanced Renamer</li><li><a href="https://calibre-ebook.com/" target="_blank" rel="noopener">calibre</a></li><li><a href="https://www.gimp.org/" target="_blank" rel="noopener">GIMP</a></li><li><a href="https://krita.org" target="_blank" rel="noopener">Krita</a></li><li>SDL Passolo<ul><li>用于翻译的软件的软件</li><li>商业软件</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;MarkDown编辑器
+&lt;ul&gt;
+&lt;li&gt;有道云笔记&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typora.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Typora&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;只有本地功
+      
+    
+    </summary>
+    
+      <category term="资源" scheme="sacomplex.gitee.io/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+      <category term="软件" scheme="sacomplex.gitee.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>B站投稿整理</title>
-    <link href="sacomplex.gitee.io/2019/06/09/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/B%E7%AB%99%E6%8A%95%E7%A8%BF%E6%95%B4%E7%90%86/"/>
-    <id>sacomplex.gitee.io/2019/06/09/学习资源/B站投稿整理/</id>
+    <link href="sacomplex.gitee.io/2019/06/09/%E8%B5%84%E6%BA%90/B%E7%AB%99%E6%8A%95%E7%A8%BF%E6%95%B4%E7%90%86/"/>
+    <id>sacomplex.gitee.io/2019/06/09/资源/B站投稿整理/</id>
     <published>2019-06-09T14:55:17.000Z</published>
     <updated>2019-06-09T14:55:17.000Z</updated>
     
@@ -37,7 +68,7 @@
     
     </summary>
     
-      <category term="学习资源" scheme="sacomplex.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
+      <category term="资源" scheme="sacomplex.gitee.io/categories/%E8%B5%84%E6%BA%90/"/>
     
     
       <category term="B站" scheme="sacomplex.gitee.io/tags/B%E7%AB%99/"/>
@@ -79,8 +110,8 @@
   
   <entry>
     <title>网站收集</title>
-    <link href="sacomplex.gitee.io/2019/06/09/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/"/>
-    <id>sacomplex.gitee.io/2019/06/09/学习资源/网站收集/</id>
+    <link href="sacomplex.gitee.io/2019/06/09/%E8%B5%84%E6%BA%90/%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/"/>
+    <id>sacomplex.gitee.io/2019/06/09/资源/网站收集/</id>
     <published>2019-06-09T08:01:18.000Z</published>
     <updated>2019-06-09T08:01:18.000Z</updated>
     
@@ -98,7 +129,7 @@
     
     </summary>
     
-      <category term="学习资源" scheme="sacomplex.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/"/>
+      <category term="资源" scheme="sacomplex.gitee.io/categories/%E8%B5%84%E6%BA%90/"/>
     
     
       <category term="网站收集" scheme="sacomplex.gitee.io/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/"/>
